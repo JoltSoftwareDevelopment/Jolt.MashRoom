@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ignostic.Timing.Sync.SyncManager">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQJAAAAIQAAAQgACAgEAICAAAIAABIAhAACAgCAAAA=</HashCode>
+      <FileName>Sync\SyncManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_syncAdapter" />
+      <Field Name="_fileAdapter" />
+      <Property Name="TimerDevice" />
+      <Property Name="TrackManager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ignostic.Timing.Sync.TrackManager">
+    <Position X="4" Y="6" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAASAAAAQAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sync\TrackManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ignostic.Timing.Sync.SyncFileAdapter">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAIAAAAoAAgAAACAgAAAAIAAAAAAIAAAAA=</HashCode>
+      <FileName>Sync\SyncFileAdapter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_trackManager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ignostic.Timing.Sync.SyncTrackerAdapter">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAARAAIQAAAAAAAgAACAAAAAwBAAAAAAA=</HashCode>
+      <FileName>Sync\SyncTrackerAdapter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_dispatcher" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ignostic.Timing.Sync.CommandDispatcher">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Sync\CommandDispatcher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_handler" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Ignostic.Timing.ITimerDevice" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Ignostic.Timing.Sync.ISyncAdapter">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sync\ISyncAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Ignostic.Timing.Sync.Commands.ICommandHandler" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAIQAABAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sync\Commands\ICommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,11 @@
+Each file might contain it's own license
+
+
+Files that don't specify a license defaults to: WTFPL
+  Do What the Fuck You Want to Public License
+  http://www.wtfpl.net/
+
+
+Most shaders use the shadertoy default license: "CC BY-NC-SA 3.0"
+  Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+  http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US
